@@ -1,6 +1,6 @@
 FROM debian:buster as builder
 
-ENV PHP_VERSION  7.4.2
+ENV PHP_VERSION  8.0.0
 
 RUN apt update \
     && apt install -y \
